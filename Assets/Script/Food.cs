@@ -5,9 +5,11 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     public BoxCollider2D gridArea;
+    public Score score;
 
     private void Start()
     {
+        Bounds bounds = this.gridArea.bounds;
         RandomizePosition();
     }
 

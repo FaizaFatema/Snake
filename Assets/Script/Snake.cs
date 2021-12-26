@@ -7,7 +7,9 @@ public class Snake : MonoBehaviour
     private List<Transform> _segments = new List<Transform>();
     public Transform segmentPrefab;
     public int initialSize = 4;
-
+    public Score score;
+    public GameController gameController;
+  
     private void Start()
     {
         ResetState();
@@ -71,10 +73,12 @@ public class Snake : MonoBehaviour
         if (other.tag == "Food")
         {
             Grow();
+            score.AddScore(1);
         }
         else if (other.tag == "Obstacle")
         {
-            ResetState();
+            gameController.GameOver();
+            Time.timeScale=0;
         }
     }
 }

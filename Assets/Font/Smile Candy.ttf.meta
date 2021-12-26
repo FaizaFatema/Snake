@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bb6f951c362f7cd4d9b24f40d50107f6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Smile Candy
+  fontNames:
+  - Smile Candy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: bbe7d1d462ecbca4b9ded08f8dd208cc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
